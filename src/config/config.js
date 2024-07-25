@@ -26,7 +26,7 @@ const MONGODB_ENABLED = !!(
 )
 // URL of the Mongo DB
 const MONGODB_URL =
-    process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/WhatsAppInstance'
+    process.env.MONGODB_URL || 'mongodb://jlospino:jlospino10@ac-d0mbfpw-shard-00-00.eojuntz.mongodb.net:27017,ac-d0mbfpw-shard-00-01.eojuntz.mongodb.net:27017,ac-d0mbfpw-shard-00-02.eojuntz.mongodb.net:27017/?replicaSet=atlas-9sse3m-shard-0&ssl=true&authSource=admin'
 // Enable or disable webhook globally on project
 const WEBHOOK_ENABLED = !!(
     process.env.WEBHOOK_ENABLED && process.env.WEBHOOK_ENABLED === 'true'
